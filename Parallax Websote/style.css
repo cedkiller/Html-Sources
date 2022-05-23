@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+.div {
+    background-image: url('img.jpg');
+    min-height: 300%;
+    height: 1000px;
+}
+
+.div2 {
+    background-image: url('img2.jpg');
+    min-height: 200%;
+    height: 900px;
+}
+
+.div3 {
+    background-image: url('img3.jpg');
+    min-height: 200%;
+    height: 900px;
+}
+
+.div, .div2, .div3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+h1, p {
+    text-align: center;
+}
